@@ -6,8 +6,8 @@ export default () => {
 
     return (
       <>
-        <button onClick={() => setCount(count + 1)}>Add one more</button>
-        <button onClick={() => setCount(count - 1)}>Add one more</button>
+        <button id="add" onClick={() => setCount(count + 1)}>Add one more</button>
+        <button id="remove" onClick={() => setCount(count - 1)}>Remove one more</button>
         <p>Counter: {count}</p>
       </>
     )
