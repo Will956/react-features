@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-export default () => {
+const EffectHooks = () => {
     const [count, setCount] = useState(0);
     const [status, setStatus] = useState(null);
 
@@ -18,3 +18,5 @@ export default () => {
       </>
     );
 };
+
+export default EffectHooks;

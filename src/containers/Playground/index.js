@@ -5,7 +5,7 @@ import EffectHooks from '../../components/Hooks/EffectHooks';
 
 import './index.scss';
 
-export default () => (
+const Playground = () => (
   <header className="app-header">
     <div className="app-block">
       <p>BasicHooks:</p>
@@ -17,3 +17,5 @@ export default () => (
     </div>
   </header>
 );
+
+export default Playground;
