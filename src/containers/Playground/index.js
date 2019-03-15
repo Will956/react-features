@@ -3,6 +3,7 @@ import React, { createContext } from 'react';
 import BasicHooks from '../../components/Hooks/BasicHooks';
 import EffectHooks from '../../components/Hooks/EffectHooks';
 import ContextHooks from '../../components/Hooks/ContextHooks';
+import ReducerHooks from '../../components/Hooks/ReducerHooks';
 
 import './index.scss';
 
@@ -22,6 +23,10 @@ const Playground = () => (
       <div className="app-block">
         <p>ContextHooks:</p>
         <ContextHooks />
+      </div>
+      <div className="app-block">
+        <p>ReducerHooks:</p>
+        <ReducerHooks />
       </div>
     </header>
   </ThemeContext.Provider>
