@@ -20,3 +20,6 @@ jobs:
       - run:
           name: Run Test
           command: yarn test
+      - run:
+          name: Build the app
+          command: yarn build
