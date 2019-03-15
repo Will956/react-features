@@ -6,4 +6,4 @@ I usually use this repo in order to test new React features.
 
 ## Features
 
-- Hooks (see [#PR3](https://github.com/Will956/react-features/pull/3))
+- [Hooks](https://github.com/Will956/react-features/pull/3)) ✅
