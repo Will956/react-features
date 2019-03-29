@@ -1,7 +1,7 @@
 import React from 'react';
 import { cleanup, render } from 'react-testing-library';
 import ContextHooks from './index';
-import { ThemeContext } from '../../../containers/Playground';
+import { ThemeContext } from '../../../containers/Hooks';
 
 afterEach(cleanup);
 
