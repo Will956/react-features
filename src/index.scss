@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: white) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
